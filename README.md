@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+ # COMP2112 Assignment 2 - Custom React Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a custom React web application developed for COMP2112 Assignment 2. The application utilizes `react-router-dom` for navigation, state and effect hooks for data management, and features a shared Bootstrap navigation bar for a consistent user interface.
 
-## Available Scripts
+## Assignment Requirements
 
-In the project directory, you can run:
+### 1. React Application Setup
 
-### `npm start`
+- The project is created using the `create-react-app` npm package.
+- `react-router-dom` is employed to create a multi-page application with a minimum of 4 page components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Stateful Component and Data Management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- A stateful component manages the application's data using the `useState` hook.
+- Data manipulation within the stateful component is implemented, including adding, editing, or deleting items.
+- Display of data from the state is incorporated across various components in the application.
+- At least one user interaction demonstrating state changes is implemented.
 
-### `npm test`
+### 3. Styling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- The application is styled using Bootstrap for a professional and responsive design.
+- Bootstrap components, such as forms, buttons, and icons, are utilized, and a customized Bootstrap navigation bar is implemented.
 
-### `npm run build`
+### 4. Page Components and Navigation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- At least 4 separate page components (e.g., homepage, settings) are created using `react-router-dom`.
+- Navigation links in the shared Bootstrap navigation bar facilitate seamless switching between these pages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 5. useEffect and API Integration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `useEffect` is implemented to fetch data from a mock API or a real API.
+- The fetched data is displayed meaningfully within the application.
 
-### `npm run eject`
+### 6. GitHub Commits and README.md
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Regular commits (minimum 4 spread over at least 2 days) are made to the GitHub repository.
+- The README.md file explains the purpose of the application and includes a link to the live website.
+- The correct GitHub repository link is included in the Blackboard submission.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 7. Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- The application is published to Render.com or another public web server.
+- The live website link is included in both the README.md file and the Blackboard submission.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Live Website
 
-## Learn More
+Visit the live website [here](<your_render_link_here>).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Local Development
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run the application locally, follow these steps:
 
-### Code Splitting
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Navigate to the project directory.
+   ```bash
+   cd your-repo
+   ```
 
-### Analyzing the Bundle Size
+3. Install dependencies.
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Start the development server.
+   ```bash
+   npm start
+   ```
 
-### Making a Progressive Web App
+The application will be accessible at `http://localhost:3000` in your web browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+If external code sources were used, they are cited in the internal documentation. All code adheres to the COMP2112 code use rules.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
